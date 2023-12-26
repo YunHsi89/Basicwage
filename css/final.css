@@ -53,7 +53,7 @@ body {
   
   /*-------------第一部分 圖表--------------*/
   #first {
-    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    background-image: url("https://i.imgur.com/NtKhOgT.png");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: left;
@@ -62,28 +62,28 @@ body {
   }
   
   #second {
-    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    background-image: url("https://i.imgur.com/Z9s1YdY.png");
     min-height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position:  left;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   #thrid {
-    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    background-image: url("https://i.imgur.com/ALdfIup.png");
     min-height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position:  left;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   #forth {
-    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    background-image: url("https://i.imgur.com/EOOqcsY.png");
     min-height: 100vh;
     background-attachment: fixed;
-    background-position: left;
+    background-position:  left;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -134,9 +134,9 @@ body {
   
   #communitity-1 {
     height:100vh;
-    background-image: url("https://i.imgur.com/O1mPdQ8.jpg");
+    background-image: url("https://i.imgur.com/vqiZrY4.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -157,9 +157,9 @@ body {
   
   #communitity-2 {
     height:100vh;
-    background-image: url("https://i.imgur.com/O1mPdQ8.jpg");
+    background-image: url("https://i.imgur.com/rTfKaiu.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -181,31 +181,31 @@ body {
     display: block;
   }
   
-  #money {
-    position: relative;
-    overflow: hidden;
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #money-text {
-    position: relative;
-    color: black;
-    width: 90%;
-    left: 5%;
-    top: 10%;
-    line-height: 50px;
-  }
-  
-  #text-container {
-    position: absolute;
-    top: 70%;
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    background-color: white;
-  }
+    #money {
+      position: relative;
+      overflow: hidden;
+      font-size: 0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #money-text {
+      position: relative;
+      color: black;
+      width: 90%;
+      left: 5%;
+      top: 10%;
+      line-height: 50px;
+    }
+    
+    #text-container {
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      width: 90%;
+      height: 200px;
+      background-color: white;
+    }
   
   #numbers {
     height:100px;
@@ -430,13 +430,12 @@ body {
   }
   
   #news {
-    background-image: url("https://i.imgur.com/bX97OXX.jpg");
+    background-image: url("https://i.imgur.com/ooXD0vC.jpg");
     height: 275vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(80%);
   }
   #news-text1 {
     position: relative;
@@ -445,6 +444,7 @@ body {
     top: 50px;
     text-align: left;
     width: 70%;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
   }
   #news-text2 {
     position: relative;
@@ -453,6 +453,7 @@ body {
     top: 130px;
     text-align: left;
     width: 70%;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
   }
   #news-text3 {
     position: relative;
@@ -461,6 +462,7 @@ body {
     top: 150px;
     text-align: left;
     width: 70%;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
   }
   #news-text4 {
     position: relative;
@@ -470,6 +472,7 @@ body {
     text-align: left;
     width: 70%;
     white-space: pre-line;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
   }
   #news-text5 {
     position: relative;
@@ -479,5 +482,41 @@ body {
     text-align: left;
     width: 70%;
     white-space: pre-line;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  #end {
+    background-image: url("https://i.imgur.com/0UBArBC.jpg");
+    height: 120vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #end-text {
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 50px;
+    text-align: left;
+    width: 70%;
+    white-space: pre-line;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #footer {
+    color: white;
+    position: relative;
+    top: 5%;
+    left:20%;
+    text-align:right;
+    white-space: pre-line;
+  }
+  
+  .divider h3{
+    font-weight: bold;
+    position:relative;
+    top: 10%;
   }
   
