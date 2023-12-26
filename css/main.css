@@ -1,0 +1,81 @@
+h1{
+    color: cadetblue;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto; /*上下為0，左右自動*/
+}
+
+.text-container{
+    padding: 5px;
+}
+
+#nav {
+    width:100px;
+    height:500px;
+    position: fixed;
+}
+#banner {
+    width:800px;
+    height:100px;
+    background-color: bisque;
+    position: fixed;
+}
+
+#banner-placeholder{
+    height: 100px;
+}
+#nav-placeholder{
+    width:100px;
+    float:left;
+}
+
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+li{
+    display:block;
+		text-align: center;
+    margin-bottom: 5px;
+    background-color:rgb(148, 92, 92);
+}
+
+li:hover{
+    background-color:pink;
+}
+
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#content {
+    width:600px;
+    float: left;
+}
+#footer {
+    width:800px;
+    height:50px;
+    background-color: burlywood;
+    clear: both;
+}
+#info {
+    width:100px;
+    background-color: antiquewhite;
+    height:500px;
+    float: left;
+}
+
+section{
+    height: 100vh;
+    scroll-margin-top: 100px;
+}

@@ -1,0 +1,483 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 使圖片完全填滿容器 */
+    z-index: 0; /* 將圖片放在 z-index 的底層，以便其他內容在上層 */
+  }
+  
+  #overlay-text {
+    position: absolute;
+    top: 45%;
+    left:5%;
+    width:90%;
+    text-align: center; 
+    color: white;
+    /*background-color:rgb(0,0,0,0.5);*/
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #overlay-text h1 {
+    font-weight: bold;
+  }
+  
+  #footer {
+    width: 800px;
+    height: 50px;
+  }
+  #supporting {
+    width: 100px;
+    height: 150px;
+  }
+  
+  #trans {
+    width: 50vw;
+    height: 200vh;
+    color: white;
+  }
+  
+  .vertical-center {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  
+  /*-------------第一部分 圖表--------------*/
+  #first {
+    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #second {
+    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #thrid {
+    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #forth {
+    background-image: url("https://i.imgur.com/7lSFoEq.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #first .row {
+    min-height: 100vh;
+  }
+  #first .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #second .row {
+    min-height: inherit;
+  }
+  #second .row div:last-child {
+    min-height: inherit;
+    background-color: #403b54;
+    color: black;
+  }
+  
+  #thrid .row {
+    min-height: inherit;
+  }
+  #thrid .row div:last-child {
+    min-height: inherit;
+    background-color: #403b54;
+    color: black;
+  }
+  
+  #forth .row {
+    min-height: 100vh;
+  }
+  #forth .row div:last-child {
+    min-height: inherit;
+    background-color: #403b54;
+    color: black;
+  }
+  
+  .center-text {
+    position: relative; /* 將 #center-text 設定為相對定位 */
+   /*top: 150px; /* 距離上方的距離 */
+    /*left: 10px; /* 距離左方的距離 */
+    text-align: left;
+    white-space: pre-line;
+  }
+  
+  /*-------------審議流程-------------*/
+  
+  #communitity-1 {
+    height:100vh;
+    background-image: url("https://i.imgur.com/O1mPdQ8.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #comtext-1 {
+    position: relative;
+    left: 20px;
+    text-align: left;
+    top:20vh;
+    width:50%;
+    white-space: pre-line;
+    font-weight: bold;
+  }
+  
+  #comtext-1 h2{
+    font-weight: bold;
+  }
+  
+  #communitity-2 {
+    height:100vh;
+    background-image: url("https://i.imgur.com/O1mPdQ8.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #comtext-2 {
+    position: relative;
+    left: 20px;
+    text-align: left;
+    top:20vh;
+    width:50%;
+    white-space: pre-line;
+    font-weight: bold;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+  
+  #money {
+    position: relative;
+    overflow: hidden;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #money-text {
+    position: relative;
+    color: black;
+    width: 90%;
+    left: 5%;
+    top: 10%;
+    line-height: 50px;
+  }
+  
+  #text-container {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+  }
+  
+  #numbers {
+    height:100px;
+    width:100%;
+    background-color:#403b54;
+    color:white;
+  }
+  
+  #numbers-text h1{
+    position:relative;
+    top:100px;
+    font-size: 250%;
+    font-weight:bold;
+  }
+  
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  /* 勞工訪談 */
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  
+  #inv-1 {
+    background-image: url("https://i.imgur.com/hWJUz6n.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #inv-1 .row {
+    min-height: 100vh;
+  }
+  #inv-1 .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #invtext-1 {
+    position: relative;
+    color: white;
+    top: 15vh;
+    text-align: left;
+    width:90%
+  }
+  
+  #invtext-1 h3{
+    font-weight: bold;
+  }
+  
+  #inv-1b {
+    background-image: url("https://i.imgur.com/hWJUz6n.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #inv-1b .row {
+    min-height: 100vh;
+  }
+  #inv-1b .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #invtext-1b {
+    position: relative;
+    color: white;
+    top: 15vh;
+    text-align: left;
+    width:90%
+  }
+  
+  #invtext-1b h3{
+    font-weight: bold;
+  }
+  
+  #inv-2 {
+    background-image: url("https://i.imgur.com/xMBYEx6.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #inv-2 .row {
+    min-height: 100vh;
+  }
+  #inv-2 .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #invtext-2 {
+    position: relative;
+    color: white;
+    top: 15vh;
+    text-align: left;
+    width:90%
+  }
+  
+  #invtext-2 h3{
+    font-weight: bold;
+  }
+  
+  #inv-2b {
+    background-image: url("https://i.imgur.com/xMBYEx6.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #inv-2b .row {
+    min-height: 100vh;
+  }
+  #inv-2b .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #invtext-2b {
+    position: relative;
+    color: white;
+    top: 15vh;
+    text-align: left;
+    width:90%
+  }
+  
+  #invtext-2b h3{
+    font-weight: bold;
+  }
+  
+  #inv-3 {
+    background-image: url("https://i.imgur.com/8ZQFiW1.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #inv-3 .row {
+    min-height: 100vh;
+  }
+  #inv-3 .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #invtext-3 {
+    position: relative;
+    color: white;
+    top: 15vh;
+    text-align: left;
+    width:90%
+  }
+  
+  #invtext-3 h3{
+    font-weight: bold;
+  }
+  
+  #inv-3b {
+    background-image: url("https://i.imgur.com/8ZQFiW1.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #inv-3b .row {
+    min-height: 100vh;
+  }
+  #inv-3b .row div:last-child {
+    background-color: #403b54;
+  }
+  
+  #invtext-3b {
+    position: relative;
+    color: white;
+    top: 15vh;
+    text-align: left;
+    width:90%
+  }
+  
+  #invtext-3b h3{
+    font-weight: bold;
+  }
+  
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  /* 專家訪談 */
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  
+  #expert-1 {
+    background-image: url("https://i.imgur.com/vJJ0IP2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  #expert-2 {
+    background-image: url("https://i.imgur.com/7TJ9c8g.jpg");
+    min-height: 1100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #expert-text1 {
+    position: relative;
+    color: white;
+    left: 250px;
+    top: 75vh;
+  }
+  #expert-text2 {
+    position: relative;
+    color: white;
+    left: 300px;
+    top: 75vh;
+  }
+  
+  #news {
+    background-image: url("https://i.imgur.com/bX97OXX.jpg");
+    height: 275vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+  }
+  #news-text1 {
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 50px;
+    text-align: left;
+    width: 70%;
+  }
+  #news-text2 {
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 130px;
+    text-align: left;
+    width: 70%;
+  }
+  #news-text3 {
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 150px;
+    text-align: left;
+    width: 70%;
+  }
+  #news-text4 {
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 230px;
+    text-align: left;
+    width: 70%;
+    white-space: pre-line;
+  }
+  #news-text5 {
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 230px;
+    text-align: left;
+    width: 70%;
+    white-space: pre-line;
+  }
+  
